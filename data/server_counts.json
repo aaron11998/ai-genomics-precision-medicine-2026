@@ -1,0 +1,14 @@
+{
+  "method": "OpenAlex works, title_and_abstract.search strict pairing: (\"machine learning\" AND \"genomics\"), one filter per publication_year, meta.count server-side, fetched 2026-09-27 during a rate-limited window (single-shot requests, retry+backoff)",
+  "strict_pairing_by_year": {
+    "2024": 2149,
+    "2025": 3570,
+    "2026": 4155
+  },
+  "notes": [
+    "Counts are fresh server-side meta.counts as of fetch time (2026-09-27, UTC morning).",
+    "2026 is a partial year (through late Sep).",
+    "Strict pairing is a narrower lower-bound query than the snapshot cohort filter (single AI term + single anchor term); treat series levels as indicative, growth rates as the signal.",
+    "Full per-term breakdown (AI: artificial intelligence/ML/DL x anchors: genomics/genome/precision medicine) was deferred because the OpenAlex search cluster was returning 503 for paged/full-cohort queries during this window; re-run code/fetch_build.py when healthy."
+  ]
+}

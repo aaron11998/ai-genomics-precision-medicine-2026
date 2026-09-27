@@ -1,0 +1,17 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "The State of AI in Genomics and Precision Medicine - 2026",
+  "description": "Longitudinal dataset and market analysis of ~19,600 AI genomics/precision-medicine research works from OpenAlex (CC0; snapshot cohort through 2023 plus fresh server-side strict-pairing trend through 2026 YTD): growth, geography, institutions, impact, topics. Reproducible stdlib pipeline.",
+  "url": "https://github.com/aaron11998/ai-genomics-precision-medicine-2026",
+  "sameAs": ["https://aaron11998.github.io/ai-genomics-precision-medicine-2026/", "https://aaron11998.github.io/kdense-science-lab/"],
+  "keywords": ["genomics", "precision medicine", "artificial intelligence", "machine learning", "OpenAlex", "market research"],
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "creator": { "@type": "Organization", "name": "K-Dense Science Lab" },
+  "temporalCoverage": "1900/2026",
+  "variableMeasured": ["publication_year", "primary_topic", "primary_field", "countries", "institutions", "journal", "cited_by_count", "fwci", "oa_status"],
+  "distribution": [
+    { "@type": "DataDownload", "encodingFormat": "application/jsonl", "contentUrl": "https://github.com/aaron11998/ai-genomics-precision-medicine-2026/tree/main/data" },
+    { "@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://github.com/aaron11998/ai-genomics-precision-medicine-2026/tree/main/data" }
+  ]
+}

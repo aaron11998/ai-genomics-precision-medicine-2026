@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+title: "The State of AI in Genomics & Precision Medicine - 2026"
+message: >-
+  If you use this dataset or analysis, please cite it using the metadata below.
+type: dataset
+authors:
+  - name: K-Dense Science Lab
+    website: https://kdense.science
+version: 1.0.0
+date-released: "2026-09-27"
+license: MIT
+keywords:
+  - genomics
+  - precision-medicine
+  - health-ai
+  - market-research
+  - OpenAlex
+abstract: >-
+  A reproducible market analysis of 19,600 OpenAlex-indexed works whose
+  title/abstract references artificial intelligence, machine learning, or
+  deep learning AND genomics/genome/precision medicine (snapshot
+  2026-09-26; 19,532 non-paratext works analyzed through 2023, plus fresh
+  server-side strict-pairing trend counts through 2026 YTD). Includes the
+  raw extract (JSONL), a flattened CSV, computed statistics, a deterministic
+  zero-dependency Python pipeline, an independent QA script, and four
+  publication-grade figures.
